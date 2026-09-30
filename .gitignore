@@ -1,0 +1,18 @@
+.gradle/
+.kotlin/
+.gplay/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+captures/
+.DS_Store
+
+# Local release signing material
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties

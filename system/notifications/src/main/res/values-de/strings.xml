@@ -1,0 +1,7 @@
+<resources>
+    <string name="notification_channel">Trinkerinnerungen</string>
+    <string name="notification_title">Ripple-Erinnerung</string>
+    <string name="notification_body">%1$d ml von %2$d ml Ziel übrig</string>
+    <string name="notification_log">%1$d ml eintragen</string>
+    <string name="notification_open">Ripple öffnen</string>
+</resources>

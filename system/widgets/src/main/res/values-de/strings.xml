@@ -1,0 +1,8 @@
+<resources>
+    <string name="widget_consumed">%1$d ml</string>
+    <string name="widget_goal">von %1$d ml</string>
+    <string name="widget_remaining">%1$d ml übrig</string>
+    <string name="widget_add">+ %1$d ml</string>
+    <string name="widget_unavailable">Daten nicht verfügbar</string>
+    <string name="widget_stale">Daten möglicherweise veraltet</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="stats_title">Stats</string>
+    <string name="stats_week">Week</string>
+    <string name="stats_month">Month</string>
+    <string name="stats_year">Year</string>
+    <string name="stats_average">Avg / day</string>
+    <string name="stats_hit_days">Goal days</string>
+    <string name="stats_total">Total</string>
+    <string name="stats_daily">Daily</string>
+    <string name="stats_daypart">By daypart</string>
+    <string name="stats_container">By container</string>
+    <string name="stats_highlights">Highlights</string>
+    <string name="stats_best_day">Best day</string>
+    <string name="stats_current_run">Current hit run</string>
+    <string name="stats_days">days</string>
+    <string name="stats_no_data">No data for this period.</string>
+    <string name="stats_no_best_day">No best day yet.</string>
+</resources>

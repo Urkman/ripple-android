@@ -1,0 +1,21 @@
+<resources>
+    <string name="history_title">Verlauf</string>
+    <string name="history_previous">Vorheriger Monat</string>
+    <string name="history_next">Nächster Monat</string>
+    <string name="history_today">Heute</string>
+    <string name="history_no_entries">Keine Einträge</string>
+    <string name="history_day_detail">Tagesdetails</string>
+    <string name="history_add">Hinzufügen</string>
+    <string name="history_edit">Bearbeiten</string>
+    <string name="history_delete">Löschen</string>
+    <string name="history_restore">Wiederherstellen</string>
+    <string name="history_undo">Rückgängig</string>
+    <string name="history_empty_body">An diesem Tag wurden keine Getränke erfasst.</string>
+    <string name="history_amount">Menge</string>
+    <string name="history_note">Notiz</string>
+    <string name="history_cancel">Abbrechen</string>
+    <string name="history_save">Speichern</string>
+    <string name="history_saved">Gespeichert</string>
+    <string name="history_deleted">Eintrag gelöscht</string>
+    <string name="history_weekdays">M|D|M|D|F|S|S</string>
+</resources>

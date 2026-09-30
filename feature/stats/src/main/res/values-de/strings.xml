@@ -1,0 +1,18 @@
+<resources>
+    <string name="stats_title">Statistik</string>
+    <string name="stats_week">Woche</string>
+    <string name="stats_month">Monat</string>
+    <string name="stats_year">Jahr</string>
+    <string name="stats_average">Ø pro Tag</string>
+    <string name="stats_hit_days">Zieltage</string>
+    <string name="stats_total">Gesamt</string>
+    <string name="stats_daily">Tage</string>
+    <string name="stats_daypart">Tageszeit</string>
+    <string name="stats_container">Behälter</string>
+    <string name="stats_highlights">Höhepunkte</string>
+    <string name="stats_best_day">Bester Tag</string>
+    <string name="stats_current_run">Aktuelle Zielserie</string>
+    <string name="stats_days">Tage</string>
+    <string name="stats_no_data">Noch keine Daten für diese Periode.</string>
+    <string name="stats_no_best_day">Noch kein bester Tag.</string>
+</resources>

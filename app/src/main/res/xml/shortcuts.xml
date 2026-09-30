@@ -1,0 +1,22 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="log_default"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_log_short"
+        android:shortcutLongLabel="@string/shortcut_log_long">
+        <intent
+            android:action="de.stefansturm.ripple.LOG_DEFAULT_INTENT"
+            android:targetPackage="de.stefansturm.ripple"
+            android:targetClass="com.stefansturm.ripple.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="open_today"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_open_short"
+        android:shortcutLongLabel="@string/shortcut_open_long">
+        <intent
+            android:action="de.stefansturm.ripple.OPEN_TODAY"
+            android:targetPackage="de.stefansturm.ripple"
+            android:targetClass="com.stefansturm.ripple.MainActivity" />
+    </shortcut>
+</shortcuts>

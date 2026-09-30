@@ -1,0 +1,24 @@
+<resources>
+    <string name="onboarding_welcome_title">Willkommen bei Ripple</string>
+    <string name="onboarding_welcome_body">Eine ruhige Art, deinen Tag im Fluss zu halten.</string>
+    <string name="onboarding_units_title">Einheit wählen</string>
+    <string name="onboarding_health_title">Health Connect</string>
+    <string name="onboarding_health_body">Optionale Hydrationsprojektion und Profildaten.</string>
+    <string name="onboarding_goal_title">Ziel festlegen</string>
+    <string name="onboarding_containers_title">Deine Behälter</string>
+    <string name="onboarding_containers_body">Beginne mit ein paar gespeicherten Mengen.</string>
+    <string name="onboarding_reminders_title">Sanfte Erinnerungen</string>
+    <string name="onboarding_reminders_body">Wähle, ob Ripple dich zwischen Aufstehen und Schlafen erinnern soll.</string>
+    <string name="onboarding_next">Weiter</string>
+    <string name="onboarding_back">Zurück</string>
+    <string name="onboarding_finish">Ripple starten</string>
+    <string name="onboarding_skip">Später einrichten</string>
+    <string name="onboarding_goal_value">%1$s ml</string>
+    <string name="onboarding_reminders_enable">Erinnerungen aktivieren</string>
+    <string name="onboarding_activity_sedentary">Wenig aktiv</string>
+    <string name="onboarding_activity_moderate">Mittel</string>
+    <string name="onboarding_activity_high">Hoch</string>
+    <string name="onboarding_glass">Glas · 250 ml</string>
+    <string name="onboarding_cup">Becher · 200 ml</string>
+    <string name="onboarding_bottle">Flasche · 500 ml</string>
+</resources>

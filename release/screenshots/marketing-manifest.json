@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "appName": "Ripple",
+  "fontPath": "/System/Library/Fonts/SFNS.ttf",
+  "palette": {
+    "deep": "#0B3D4A",
+    "ocean": "#1A7A8C",
+    "aqua": "#4FB3C6",
+    "foam": "#E8F4F6",
+    "neutral": "#F5F7F7",
+    "deviceFrame": "#F5F7F7"
+  },
+  "locales": ["en-US"],
+  "devices": {
+    "phone-compact": {
+      "width": 1080,
+      "height": 2400,
+      "outputDirectory": "phone-compact"
+    }
+  },
+  "layoutValues": {
+    "safeTop": 0.075,
+    "sideMargin": 0.08,
+    "headlineSize": 0.075,
+    "subheadSize": 0.03,
+    "copyGap": 0.018,
+    "deviceScale": 0.58
+  },
+  "slides": [
+    {
+      "id": "today",
+      "layout": "hero",
+      "source": "android/phone-compact-today-light.png",
+      "headline": {
+        "en-US": "Make hydration\nvisible."
+      },
+      "subhead": {
+        "en-US": "Your daily goal at a glance."
+      },
+      "background": {
+        "from": "foam",
+        "to": "neutral"
+      },
+      "accent": {
+        "kind": "circles",
+        "color": "aqua",
+        "anchor": "top-right",
+        "opacity": 105
+      }
+    },
+    {
+      "id": "day-detail",
+      "layout": "phone-offset",
+      "source": "android/phone-compact-day-detail.png",
+      "headline": {
+        "en-US": "Every sip,\naccounted for."
+      },
+      "subhead": {
+        "en-US": "See today's entries in one clear timeline."
+      },
+      "background": {
+        "from": "neutral",
+        "to": "foam"
+      },
+      "accent": {
+        "kind": "arc",
+        "color": "ocean",
+        "anchor": "bottom-right",
+        "opacity": 95
+      }
+    },
+    {
+      "id": "stats",
+      "layout": "stats-focus",
+      "source": "android/phone-compact-stats-week.png",
+      "headline": {
+        "en-US": "See your\nrhythm."
+      },
+      "subhead": {
+        "en-US": "Understand daily patterns and progress."
+      },
+      "background": {
+        "from": "foam",
+        "to": "neutral"
+      },
+      "accent": {
+        "kind": "dots",
+        "color": "aqua",
+        "anchor": "middle-left",
+        "opacity": 85
+      }
+    },
+    {
+      "id": "history",
+      "layout": "phone-offset",
+      "source": "android/phone-compact-history.png",
+      "headline": {
+        "en-US": "Build a habit\nyou can see."
+      },
+      "subhead": {
+        "en-US": "Review your progress day by day."
+      },
+      "background": {
+        "from": "neutral",
+        "to": "foam"
+      },
+      "accent": {
+        "kind": "circles",
+        "color": "ocean",
+        "anchor": "top-right",
+        "opacity": 90
+      }
+    },
+    {
+      "id": "custom-amount",
+      "layout": "hero",
+      "source": "android/phone-compact-custom-amount.png",
+      "headline": {
+        "en-US": "Log it\nyour way."
+      },
+      "subhead": {
+        "en-US": "Choose a container or set a custom amount."
+      },
+      "background": {
+        "from": "foam",
+        "to": "neutral"
+      },
+      "accent": {
+        "kind": "arc",
+        "color": "aqua",
+        "anchor": "top-right",
+        "opacity": 95
+      }
+    },
+    {
+      "id": "settings",
+      "layout": "phone-offset",
+      "source": "android/phone-compact-settings.png",
+      "headline": {
+        "en-US": "Fit your\nroutine."
+      },
+      "subhead": {
+        "en-US": "Set goals, units, activity and containers."
+      },
+      "background": {
+        "from": "neutral",
+        "to": "foam"
+      },
+      "accent": {
+        "kind": "dots",
+        "color": "ocean",
+        "anchor": "bottom-right",
+        "opacity": 80
+      }
+    },
+    {
+      "id": "dark-mode",
+      "layout": "hero",
+      "source": "android/phone-compact-today-dark.png",
+      "headline": {
+        "en-US": "A calmer view\nat night."
+      },
+      "subhead": {
+        "en-US": "Keep your progress close, day or night."
+      },
+      "background": {
+        "from": "foam",
+        "to": "neutral"
+      },
+      "accent": {
+        "kind": "circles",
+        "color": "aqua",
+        "anchor": "top-right",
+        "opacity": 90
+      }
+    }
+  ]
+}

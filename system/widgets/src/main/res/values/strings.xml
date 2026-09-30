@@ -1,0 +1,8 @@
+<resources>
+    <string name="widget_consumed">%1$d ml</string>
+    <string name="widget_goal">of %1$d ml</string>
+    <string name="widget_remaining">%1$d ml left</string>
+    <string name="widget_add">+ %1$d ml</string>
+    <string name="widget_unavailable">Data unavailable</string>
+    <string name="widget_stale">Data may be stale</string>
+</resources>

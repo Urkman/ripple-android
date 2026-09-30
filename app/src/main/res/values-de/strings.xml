@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ripple</string>
+    <string name="nav_today">Heute</string>
+    <string name="nav_history">Verlauf</string>
+    <string name="nav_stats">Statistik</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="shortcut_log_short">Wasser erfassen</string>
+    <string name="shortcut_log_long">Standardmenge erfassen</string>
+    <string name="shortcut_open_short">Ripple öffnen</string>
+    <string name="shortcut_open_long">Ripple Heute öffnen</string>
+</resources>

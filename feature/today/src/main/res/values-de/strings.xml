@@ -1,0 +1,22 @@
+<resources>
+    <string name="today_product_name">Ripple</string>
+    <string name="today_title">Heute</string>
+    <string name="today_remaining">%1$s übrig</string>
+    <string name="today_goal_reached">Ziel erreicht</string>
+    <string name="today_goal_over">Heute im Fluss</string>
+    <string name="today_custom_amount">Eigene Menge</string>
+    <string name="today_add">Hinzufügen</string>
+    <string name="today_undo">Rückgängig</string>
+    <string name="today_added">%1$s hinzugefügt</string>
+    <string name="today_empty_title">Noch still</string>
+    <string name="today_empty_body">Protokolliere dein erstes Getränk.</string>
+    <string name="today_loading">Heute wird geladen</string>
+    <string name="today_custom_title">Eigene Menge</string>
+    <string name="today_dismiss">Schließen</string>
+    <string name="today_amount">Menge</string>
+    <string name="today_selected_container">Ausgewählter Behälter</string>
+    <string name="today_select_container">Gespeicherten Behälter wählen</string>
+    <string name="today_settings">Einstellungen</string>
+    <string name="today_history">Verlauf</string>
+    <string name="today_hero_accessibility">%1$s %2$s getrunken von %3$s %2$s Ziel, %4$s %2$s übrig, %5$d Prozent</string>
+</resources>

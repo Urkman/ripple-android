@@ -1,0 +1,7 @@
+<resources>
+    <string name="notification_channel">Hydration reminders</string>
+    <string name="notification_title">Ripple reminder</string>
+    <string name="notification_body">%1$d ml remaining of %2$d ml goal</string>
+    <string name="notification_log">Log %1$d ml</string>
+    <string name="notification_open">Open Ripple</string>
+</resources>

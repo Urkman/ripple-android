@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <desc>Ripple Today resize and usable fold regions, surface contract 1.2.3. Both hero regions retain the recognizable two-dimensional tumbler glass and clipped water geometry. The shown state is upright and idle; supported device tilt is defined in the canonical motion contract.</desc>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #222; }
+    .muted { fill: #667477; }
+    .region { fill: #f4f4f4; stroke: #777; stroke-width: 2; stroke-dasharray: 7 6; }
+    .glass { fill: #ffffff; fill-opacity: .52; stroke: #348b99; stroke-width: 3; stroke-linejoin: round; }
+    .water { fill: #a9dfe6; fill-opacity: .9; }
+    .waterline { fill: none; stroke: #5caab4; stroke-width: 2; }
+  </style>
+  <defs>
+    <clipPath id="compact-inner">
+      <path d="M96 204 Q195 194 294 204 L278 306 Q276 319 265 320 H125 Q114 319 112 306 Z"/>
+    </clipPath>
+    <clipPath id="expanded-inner">
+      <path d="M468 198 Q570 184 672 198 L646 373 Q644 387 630 389 H510 Q496 387 494 373 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="1100" height="650" fill="#ffffff"/>
+  <text x="30" y="40" font-size="26">Today — resize and usable fold regions</text>
+  <text x="30" y="70" font-size="16" class="muted">Neutral shared wireframe • contract 1.2.3 • illustrative dimensions, not device pixels</text>
+  <text x="30" y="115" font-size="20">Compact / constrained height</text>
+  <text x="420" y="115" font-size="20">Expanded / active fold regions</text>
+
+  <rect x="30" y="135" width="330" height="390" class="region"/>
+  <text x="44" y="165" font-size="18">Current safe content region</text>
+  <path d="M90 204 Q195 182 300 204 L280 306 Q278 322 264 324 H126 Q112 322 110 306 Z" class="glass"/>
+  <g clip-path="url(#compact-inner)">
+    <rect x="76" y="255" width="238" height="90" class="water"/>
+    <path d="M76 255 H314" class="waterline"/>
+  </g>
+  <path d="M90 204 Q195 182 300 204 L280 306 Q278 322 264 324 H126 Q112 322 110 306 Z" fill="none" stroke="#348b99" stroke-width="3"/>
+  <text x="195" y="238" text-anchor="middle" font-size="16" font-weight="700">Hero · 2D tumbler glass</text>
+  <text x="195" y="279" text-anchor="middle" font-size="14" class="muted">flat idle water</text>
+  <text x="65" y="360" font-size="18">Remaining / goal</text>
+  <rect x="50" y="382" width="290" height="55" rx="6" class="region"/>
+  <text x="64" y="412" font-size="18">First three quick adds</text>
+  <text x="50" y="465" font-size="16">Vertical content scroll if needed</text>
+  <rect x="50" y="480" width="290" height="45" rx="6" class="region"/>
+  <text x="64" y="509" font-size="18">Custom amount</text>
+
+  <rect x="420" y="135" width="300" height="290" class="region"/>
+  <path d="M465 198 Q570 176 675 198 L648 373 Q646 390 630 392 H510 Q494 390 492 373 Z" class="glass"/>
+  <g clip-path="url(#expanded-inner)">
+    <rect x="450" y="282" width="240" height="130" class="water"/>
+    <path d="M450 282 H690" class="waterline"/>
+  </g>
+  <path d="M465 198 Q570 176 675 198 L648 373 Q646 390 630 392 H510 Q494 390 492 373 Z" fill="none" stroke="#348b99" stroke-width="3"/>
+  <text x="570" y="238" text-anchor="middle" font-size="16" font-weight="700">Hero · tumbler glass</text>
+  <text x="570" y="266" text-anchor="middle" font-size="14" class="muted">same contained water / tilt motion</text>
+  <text x="755" y="165" font-size="18">Action region</text>
+  <rect x="755" y="185" width="310" height="240" class="region"/>
+  <text x="775" y="220" font-size="18">Remaining / goal</text>
+  <rect x="775" y="240" width="270" height="55" rx="6" class="region"/>
+  <text x="789" y="270" font-size="18">Ordered quick adds</text>
+  <rect x="775" y="315" width="270" height="55" rx="6" class="region"/>
+  <text x="789" y="348" font-size="18">Custom amount</text>
+  <text x="440" y="465" font-size="17">Custom amount stays in the safe action region</text>
+  <text x="420" y="505" font-size="16">Side by side only when both regions fit; otherwise vertical.</text>
+  <path d="M738 145 V415" stroke="#999" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="30" y="570" font-size="18">Preserve the selected root, current state, and any open custom-amount draft through reflow.</text>
+  <text x="30" y="605" font-size="16" class="muted">Static upright/idle illustration; water follows supported device tilt in the motion contract. These are not runtime screenshots.</text>
+</svg>
